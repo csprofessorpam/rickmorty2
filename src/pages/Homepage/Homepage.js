@@ -11,7 +11,7 @@ function Homepage() {
     const[characters, setCharacters] = useState([])
 
     //extract theme values
-    const {darkMode, setDarkMode} = useContext(ThemeContext)
+    const {darkMode} = useContext(ThemeContext)
 
     useEffect(
         ()=>{
