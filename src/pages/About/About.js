@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import { UserContext } from '../../contexts/UserContext'
+//import { UserContext } from '../../contexts/UserContext'
 
 import './About.css'
 import banner from '../../assets/banner.jpeg'
@@ -9,7 +9,7 @@ function About() {
   //const {userName, setUserName} = useContext(UserContext)
 
   //extract theme values
-  const {darkMode, setDarkMode} = useContext(ThemeContext)
+  const {darkMode} = useContext(ThemeContext)
 
   return (
     <div className={darkMode?"about-container about-dark" : "about-container"}>
