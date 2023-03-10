@@ -1,0 +1,30 @@
+.header-container{
+    height: 40px;
+    background-color: purple;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-dark{
+    background-color: black;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    width: 20%;
+}
+
+.header-links a{
+    color: white;
+}
+
+.message{
+    display: flex;
+}
